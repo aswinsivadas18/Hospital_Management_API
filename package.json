@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon Express.js",
     "dev": "nodemon Express.js",
-    "build": "npm run generate-build",
-    "generate-build": "npm run build"
+    "build": "npm i"
+
   },
   "author": "",
   "license": "ISC",
