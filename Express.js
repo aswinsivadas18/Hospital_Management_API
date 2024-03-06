@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+require('dotenv').config();
 const dotenv = require('dotenv');
 const mongoose = require('./Mongoose/Mongo');
 const { initGridFS } = require('./Schema/Gridfs');
